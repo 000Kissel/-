@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.item::before {
+    content: '\263A';
+    width: 20px;
+    height: 20px;
+    background-color: cyan;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.item::after {
+    content: '\2603';
+    background-color: pink;
+}
+
+.block1 {
+    background-color: hotpink;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: 3px solid rgb(60, 231, 60);
+    margin: 20px;
+    display: inline-block;
+}
+
+
+
+.block2 {
+    background-color: chartreuse;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 30px;
+    border: 3px dashed pink;
+    display: inline-block;
+}
+
+.inline1 {
+    background-color: rgb(168, 145, 233);
+}
+
+.inline2 {
+    background-color: rgb(255, 144, 144);
+}
